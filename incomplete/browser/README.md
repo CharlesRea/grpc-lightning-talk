@@ -1,0 +1,1 @@
+protoc greet.proto --js_out=import_style=commonjs:../Server/wwwroot/scripts --grpc-web_out=import_style=commonjs,mode=grpcwebtext:../server/wwwroot/scripts

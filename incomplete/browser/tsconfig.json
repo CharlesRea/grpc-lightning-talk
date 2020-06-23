@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {                    
+		"target": "es5",
+		"module": "es6",
+		"outDir": "dist",
+        "strict": true,
+        "allowJs": true
+	},
+    "include": [
+        "index.ts", "generated/**/*.*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
